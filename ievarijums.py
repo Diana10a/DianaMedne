@@ -1,0 +1,1 @@
+aboli = float(input('Cik daudz ir ābolu? : '))
