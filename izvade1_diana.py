@@ -1,0 +1,12 @@
+#Diāna Medne
+print('Sekos tukša rinda')
+print('')
+print('Visi vārdi vienā rindā')
+print('Visi ',end='')
+print('vārdi ',end='')
+print('vienā ',end='')
+print('rindā')
+print('No zvaigznītēm * veidots trijstūris')
+print('  *')
+print(' * *')
+print('*****')
