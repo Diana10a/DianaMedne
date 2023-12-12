@@ -21,5 +21,5 @@ del tests[3:6]
 print(tests) #izdzēš intervālu 
 
 cipari = [1,2,3,4,5,6,7,8]
-del cipari[2:7:2]
+del cipari[2:7:2] #no 2-7 elementam dzēš ārā katru otro
 print(cipari)
