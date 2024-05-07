@@ -1,13 +1,11 @@
-print('Hello, World!')
-print('Dzīvnieki') #programmas nosaukums
-#teksta pārvietošana uz jaunu rindu 
-print('Zebras ir strīpainas','\nķenguri lēkā','\nsuns rej')
-#tabulācijas atsarpe
-print('\tZilonis \tir \tliels')
-
-
-#atsevišķa print funkicija, bet visi vārdi vienā rindā
-print('Visi ',end='')
-print('vārdi ',end='')
-print('vienā ',end='')
-print('rindā')
+def lietotaja_darzeni():
+    print('* * * * * * * * * *')
+    darzena_nosaukums = input('Ievadiet dārzeņa nosaukumu: ')
+    try:
+        darzena_attalums = int(input('Ievadiet dārzeņu attālumu: '))
+    except ValueError:
+        print("Ievadiet pareizus datus!")
+        darzena_attalums = int(input('Ievadiet dārzeņu attālumu: '))
+    
+    darzeni[darzena_nosaukums] = darzena_attalums  #pievieno lietotāja ievadīto dārzeni un tā datus sarakstam 
+    print('* * * * * * * * * *')
